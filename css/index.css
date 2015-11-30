@@ -23,20 +23,33 @@ html, body {
 }
 
 
-
 #svgTitle {
   height: 100%;
-  background-image: url(../images/b.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+  text-align: center;
 
+}
 
 #nameSvg{
-  padding-top: 50px;
+  padding: 50px;
 }
 
+#nameTitle{
+  font-family: NeutraDemi;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 5px;
+}
+
+#titleAbout{
+  font-family: NeutraDemi;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 5px;
+  color: #C0C0C0;
+  margin: 10px; 
+}
 
 #nav {
   list-style:none;
@@ -76,34 +89,19 @@ html, body {
 
 #nav li a:hover {
    text-decoration: none;
-   color: #FE777D;
+   opacity: 0.5;
 }
 
 
-.titleProject {
-  font-family: NeutraDemi;
-  text-transform: uppercase;
-  line-height: 27px;
-  font-size: 15px;
-  font-weight: lighter;
-  letter-spacing: 4px;
 
-  text-align: center;
-  height: 100px;
-  width: 100%;
-  padding-top: 100px;
-  color: #FE777D;
-
-}
 
 
 
 .projectsDisplay {
-  background-color: #fff;
-  height: 100%;
-  margin-top: 50px;
-  
   text-align: center;
+  background-color: #fff;
+  margin-top: 50px;
+  margin-right: 50px;
   text-transform: uppercase;
   
   font-size: 12px;
@@ -122,13 +120,19 @@ html, body {
   opacity: 0.5;
   color: #ae9b81;
 }
-
+#portImg {
+  margin-top: 80px;
+}
+#projectImg{
+  position: relative;
+  text-align: center;
+}
 
 #projectLink {
     padding-top: 20px;  
     font-family: NeutraDemi;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 13px;
     letter-spacing: 1.25px;
     text-transform:uppercase;
     line-height: 20px;  
@@ -136,18 +140,14 @@ html, body {
     text-decoration: none;
 }
 
-
-
-
 #webLink {
     font-family: NeutraDemi;
     font-weight: 400;
-    font-style: italic;
     font-size: 12px;
     letter-spacing: 1.25px;
-    text-transform:lowercase;
+    text-transform: lowercase;
     line-height: 18px;
-    background-color: #fff;
+    color: #C0C0C0;
     text-decoration: none;
 }
 #webLink a {
@@ -159,16 +159,18 @@ html, body {
 }
 
 .aboutDisplay{
-  /*background-color: #BDC19F;*/
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
+
+hr{
+  margin-top: 200px;
+}
 
 #aboutDescription {
     font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-weight: lighter;
-    /*font-family: NeutraThin;*/
-    font-size: 20px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     line-height: 40px;
     margin-left: 200px;
@@ -176,46 +178,6 @@ html, body {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    /*background-color: #BDC19F;*/
-}
-
-#onDesign {
-    font-family: NeutraDemi;
-    text-transform:uppercase;
-    text-align: center;
-    font-weight: 100;
-    font-size: 70px;
-    letter-spacing: 1.5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    line-height: 90px;
-    margin-top: 0;
-}
-
-.quote {
-  padding: 5px;
-  border-top: 10px solid #000000; 
-  border-bottom: 10px solid #000000; 
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: #fff;
-}
-
-.bigger {
-  font-size: 120px;
-  color: #FE777D; 
-}
-
-
-#milton {
-    font-family: KaufmannBold;
-    font-weight: 400;
-    font-size: 30px;
-    letter-spacing: 1.25px;
-    text-align: center; 
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 0;    
 }
 
 
@@ -248,45 +210,11 @@ html, body {
 
 
 
-h3 {
-	font-family: NeutraDemi;
-	font-weight: 400;
-	font-size: 30px;
-	letter-spacing: 4px;
-	margin-bottom: 50px;
-  margin-top: 0;
-	margin-left: 200px;
-	margin-right: 200px;
-}
-
-#backgroundQuote {
-  height: 100%;
-  background-image: url(../images/quote.png);
-  background-size: 60%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0;
-
-}
 
 
-#resumeBlock {
-  margin-top: 0;
-  padding-top: 0;
-	background-color: #81ADA0;
-  width: 100%;
-}
-
-#iconSvg{
-  padding-top: 8px;
-  padding-left: 6px;
-  pointer-events: none;
-  max-width: 5.0%;
-}
 
 
-#fadeInE {
+/*#fadeInE {
     opacity:0;
 }
 
@@ -313,13 +241,17 @@ h3 {
 #fadeInEdu2 {
     opacity:0;
 }
-
+*/
 #fadeInContact {
     opacity:0;
 }
 
 #fadeInAbout{
     opacity:0;
+}
+
+#fadeInhr {
+  opacity: 0;
 }
 
 #fadeInProjects{
@@ -332,7 +264,7 @@ h3 {
     padding-top: 5px;  
     font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-weight: lighter;
-    font-size:14px;
+    font-size:12px;
     letter-spacing: 1.5px;
     line-height: 25px;
     margin-left: 200px;
@@ -341,129 +273,15 @@ h3 {
     margin-bottom: 10px;
 }
 
-#languages { 
-	display: inline-block;
-	word-spacing: 25px;
-	color: #F7929A;
-	font-family: NeutraDemi;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size:12px;
-	margin-left: 200px;
-	margin-right: 200px;
-	margin-bottom: 50px;
-  
-}
 
-#workTitle {
-	font-family: NeutraDemi;
-    font-weight: normal;
-
-    text-transform: uppercase;
-    font-size: 22px;
-    letter-spacing: 1.25px;
-    line-height: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 5px;
-}
-
-#icon img{
-  padding-left: 10px;
-}
-
-#workPlace{
-    font-family: NeutraDemi;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-size: 15px;
-    letter-spacing: 1.25px;
-    line-height: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 0;
-}
-
-#date {
-    font-family: KaufmannBold;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 1.25px;
-    text-transform:lowercase;
-    line-height: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-#location {
-    font-family: KaufmannBold;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 1.25px;
-    text-transform:lowercase;
-    line-height: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 0;
-}
-
-#schoolTitle {
-	font-family: NeutraDemi;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-size: 22px;
-    letter-spacing: 1.25px;
-    line-height: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 0;
-}
-
-#schoolName{
-	 font-family: NeutraDemi;
-    font-weight: normal;
-
-    text-transform:uppercase;
-    font-size: 18px;
-    letter-spacing: 1.25px;
-    line-height: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-#schoolDate {
-    font-family: KaufmannBold;
-    font-weight: 400;
-    font-size:18px;
-    letter-spacing: 1.25px;
-    text-transform:lowercase;
-    line-height: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 50px;
-}
-
-#schoolLocation {
-    font-family: KaufmannBold;
-    font-weight: 400;
-    font-size:18px;
-    letter-spacing: 1.25px;
-    text-transform:lowercase;
-    line-height: 18px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 0;
-    background-color: #81ADA0;
-}
 
 #contactButtons{
   padding: 15px;
 }
 
+#contactButtons:hover{
+  opacity: 0.5;
+}
 .copyRight {
   text-align: center;
   text-decoration: none;
@@ -475,21 +293,16 @@ h3 {
 }
 
 
-
 #svgProjectHeader{
-  margin-top: 100px;
+  text-align: center;
+
 }
 
 #svgAboutHeader{
-  margin-top: 100px;
-  padding: 50px;
-  /*background-color: #BDC19F;*/
+  text-align: center;
 }
 
-#svgResumeHeader{
-  padding: 50px;
-  background-color: #81ADA0; 
-}
+
 
 /*SVG ANIMATIONS*/
 .st0 {

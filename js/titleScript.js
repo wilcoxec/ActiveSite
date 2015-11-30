@@ -71,32 +71,6 @@ $(document).ready(function() {
   }
 
 
-    if ($(window).scrollTop() > $("#resumeFrame").offset().top - 400) {
-      $(".r").css({"animation" : "dash 6s linear forwards","-webkit-animation" : "dash 6s linear forwards" });
-      
-      $(".rFill").css({"animation" : "filling 2s linear forwards","-webkit-animation" : "filling 2s linear forwards" });
-
-      $(".r2").css({"animation-delay" : "0.2s"});
-      $(".r3").css({"animation-delay" : "0.4s"});
-      $(".r4").css({"animation-delay" : "0.6s"});
-      $(".r5").css({"animation-delay" : "0.8s"});
-      $(".r6").css({"animation-delay" : "1.0s"});
-
-
-      $(".rf1").css({"animation-delay" : "0.4s"});
-      $(".rf2").css({"animation-delay" : "0.6s"});
-      $(".rf3").css({"animation-delay" : "0.8s"});
-      $(".rf4").css({"animation-delay" : "1s"});
-      $(".rf5").css({"animation-delay" : "1.2s"});
-      $(".rf6").css({"animation-delay" : "1.4s"});
-
-  }
-
-  
-
-  if ($(window).scrollTop() > $("#resumeFrame").offset().top + 40 ) {
-     $("#showDiv").css({"display" : "block"}); 
-  }
 
 
   });
