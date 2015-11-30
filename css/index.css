@@ -34,7 +34,7 @@ html, body {
 }
 
 #nameTitle{
-  font-family: NeutraDemi;
+  font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
   font-style: normal;
   font-size: 20px;
   line-height: 20px;
@@ -42,7 +42,7 @@ html, body {
 }
 
 #titleAbout{
-  font-family: NeutraDemi;
+  font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 20px;
@@ -81,7 +81,7 @@ html, body {
   padding-right: 25px;
   padding-bottom: 25px;
   padding-top: 25px;
-  font-family: NeutraDemi;
+  font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 11px;
   letter-spacing: 4px;
@@ -185,20 +185,19 @@ hr{
 
 #contactInfo {
     padding-top: 5px;  
-    font-family: NeutraDemi;
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size:12px;
     letter-spacing: 1.25px;
     text-transform:lowercase;
     line-height: 18px;
-    background-color: #fff;
     color: #000;
 }
 
 
 .contactBlock {
   padding: 250px;
-  background-color: #fff;
+  background-color: #f2f2f2;
   text-align: center;
 
 }
@@ -244,6 +243,7 @@ hr{
 */
 #fadeInContact {
     opacity:0;
+
 }
 
 #fadeInAbout{
@@ -286,10 +286,12 @@ hr{
   text-align: center;
   text-decoration: none;
   color: black;
-  font-family: NeutraDemi;
+  font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 11px;
   letter-spacing: 4px;
+  background-color: #f2f2f2;
+  margin-top: 0;
 }
 
 

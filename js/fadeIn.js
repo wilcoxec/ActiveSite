@@ -70,10 +70,10 @@ $(document).ready(function() {
        
   }
 
-  if ($(window).scrollTop() > $("#fadeInProjects").offset().top - 400 ) {
-      $("#fadeInProjects").animate({"opacity" : "1"}, 1500);
+  // if ($(window).scrollTop() > $("#fadeInProjects").offset().top - 400 ) {
+  //     $("#fadeInProjects").animate({"opacity" : "1"}, 1500);
        
-  }
+  // }
 
 
   });

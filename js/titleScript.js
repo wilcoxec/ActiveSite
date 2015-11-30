@@ -10,44 +10,44 @@ $(document).ready(function() {
     //get the value to be subtracted from the 'stroke-dashoffset'
     //var $offsetUnit = $percentageComplete * ($newUnit / 100);
     //set the new value of the dashoffset to create the drawing effect
-  if ($(window).scrollTop() > $("#frame").offset().top - 400 ) {
-      $(".st0").css({"animation" : "dash 6s linear forwards","-webkit-animation" : "dash 6s linear forwards" });
+  // if ($(window).scrollTop() > $("#frame").offset().top - 400 ) {
+  //     $(".st0").css({"animation" : "dash 6s linear forwards","-webkit-animation" : "dash 6s linear forwards" });
       
-      $(".fill").css({"animation" : "filling 2s linear forwards","-webkit-animation" : "filling 2s linear forwards" });
+  //     $(".fill").css({"animation" : "filling 2s linear forwards","-webkit-animation" : "filling 2s linear forwards" });
 
-      $(".o2").css({"animation-delay" : "0.2s"});
-      $(".o3").css({"animation-delay" : "0.4s"});
-      $(".o4").css({"animation-delay" : "0.6s"});
-      $(".o5").css({"animation-delay" : "0.8s"});
-      $(".o6").css({"animation-delay" : "1s"});
-      $(".o7").css({"animation-delay" : "1.2s"});
-      $(".o8").css({"animation-delay" : "1.4s"});
-      $(".o9").css({"animation-delay" : "1.6s"});
-      $(".o10").css({"animation-delay" : "1.8s"});
-      $(".o11").css({"animation-delay" : "2s"});
-      $(".o12").css({"animation-delay" : "2.2s"});
-      $(".o13").css({"animation-delay" : "2.4s"});
-      $(".o14").css({"animation-delay" : "2.6s"});
-      $(".o15").css({"animation-delay" : "2.8s"});
+  //     $(".o2").css({"animation-delay" : "0.2s"});
+  //     $(".o3").css({"animation-delay" : "0.4s"});
+  //     $(".o4").css({"animation-delay" : "0.6s"});
+  //     $(".o5").css({"animation-delay" : "0.8s"});
+  //     $(".o6").css({"animation-delay" : "1s"});
+  //     $(".o7").css({"animation-delay" : "1.2s"});
+  //     $(".o8").css({"animation-delay" : "1.4s"});
+  //     $(".o9").css({"animation-delay" : "1.6s"});
+  //     $(".o10").css({"animation-delay" : "1.8s"});
+  //     $(".o11").css({"animation-delay" : "2s"});
+  //     $(".o12").css({"animation-delay" : "2.2s"});
+  //     $(".o13").css({"animation-delay" : "2.4s"});
+  //     $(".o14").css({"animation-delay" : "2.6s"});
+  //     $(".o15").css({"animation-delay" : "2.8s"});
 
 
 
-      $(".l1").css({"animation-delay" : "0.4s"});
-      $(".l2").css({"animation-delay" : "0.6s"});
-      $(".l3").css({"animation-delay" : "0.8s"});
-      $(".l4").css({"animation-delay" : "1s"});
-      $(".l5").css({"animation-delay" : "1.2s"});
-      $(".l6").css({"animation-delay" : "1.4s"});
-      $(".l7").css({"animation-delay" : "1.6s"});
-      $(".l8").css({"animation-delay" : "1.8s"});
-      $(".l9").css({"animation-delay" : "2s"});
-      $(".l10").css({"animation-delay" : "2.2s"});
-      $(".l11").css({"animation-delay" : "2.4s"});
-      $(".l12").css({"animation-delay" : "2.6s"});
-      $(".l13").css({"animation-delay" : "2.8s"});
-      $(".l14").css({"animation-delay" : "3.0s"});
-      $(".l15").css({"animation-delay" : "3.2s"});
-  }
+  //     $(".l1").css({"animation-delay" : "0.4s"});
+  //     $(".l2").css({"animation-delay" : "0.6s"});
+  //     $(".l3").css({"animation-delay" : "0.8s"});
+  //     $(".l4").css({"animation-delay" : "1s"});
+  //     $(".l5").css({"animation-delay" : "1.2s"});
+  //     $(".l6").css({"animation-delay" : "1.4s"});
+  //     $(".l7").css({"animation-delay" : "1.6s"});
+  //     $(".l8").css({"animation-delay" : "1.8s"});
+  //     $(".l9").css({"animation-delay" : "2s"});
+  //     $(".l10").css({"animation-delay" : "2.2s"});
+  //     $(".l11").css({"animation-delay" : "2.4s"});
+  //     $(".l12").css({"animation-delay" : "2.6s"});
+  //     $(".l13").css({"animation-delay" : "2.8s"});
+  //     $(".l14").css({"animation-delay" : "3.0s"});
+  //     $(".l15").css({"animation-delay" : "3.2s"});
+  // }
   
 
 
