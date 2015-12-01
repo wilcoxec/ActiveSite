@@ -22,6 +22,36 @@ html, body {
   padding: 0;
 }
 
+#wrapper {
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+
+.panels {
+    position:relative;
+
+    width:100%;
+    z-index:100;
+}
+
+#a{
+    background: #fff;
+    position:fixed;
+    top:0;
+    z-index:-99;
+}
+
+#b{
+   margin-top: 100%;
+   background: #eee;
+   margin-bottom: 0;
+}
+
+#c{
+  margin: 0;
+  background: #eee;
+}
 
 #svgTitle {
   height: 100%;
@@ -58,6 +88,7 @@ html, body {
   text-align:center;
   width: 100%;
   position: absolute;
+  z-index: 200;
 }
 
 #nav ul {
@@ -83,7 +114,7 @@ html, body {
   padding-top: 25px;
   font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 11px;
+  font-size: 9px;
   letter-spacing: 4px;
 }
 
@@ -159,13 +190,10 @@ html, body {
 }
 
 .aboutDisplay{
-  margin-bottom: 100px;
 }
 
 
-hr{
-  margin-top: 200px;
-}
+
 
 #aboutDescription {
     font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
@@ -183,8 +211,7 @@ hr{
 
 
 
-#contactInfo {
-    padding-top: 5px;  
+#contactInfo { 
     font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size:12px;
@@ -192,13 +219,18 @@ hr{
     text-transform:lowercase;
     line-height: 18px;
     color: #000;
+    margin: 0;
 }
 
 
 .contactBlock {
-  padding: 250px;
-  background-color: #f2f2f2;
+  padding-right: 250px;
+  padding-left: 250px;
+  padding-bottom: 250px;
+  padding-top: 100px;
+  background-color: #eee;
   text-align: center;
+
 
 }
 
@@ -207,40 +239,16 @@ hr{
   color: black;
 }
 
-
-
-
-
-
-
-/*#fadeInE {
-    opacity:0;
+#contactInfoTop a{
+  font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+  text-decoration: none;
+  color: black;
+  font-size: 9px;
 }
 
-#fadeInE1 {
-    opacity:0;
-}
 
-#fadeInE2 {
-    opacity:0;
-}
-
-#fadeInE3 {
-    opacity:0;
-}
-
-#fadeInEdu {
-    opacity:0;
-}
-
-#fadeInEdu1 {
-    opacity:0;
-}
-
-#fadeInEdu2 {
-    opacity:0;
-}
-*/
 #fadeInContact {
     opacity:0;
 
@@ -260,19 +268,6 @@ hr{
 
 
 
-#description {
-    padding-top: 5px;  
-    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
-    font-weight: lighter;
-    font-size:12px;
-    letter-spacing: 1.5px;
-    line-height: 25px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
 
 
 #contactButtons{
@@ -290,7 +285,7 @@ hr{
   font-weight: normal;
   font-size: 11px;
   letter-spacing: 4px;
-  background-color: #f2f2f2;
+  background-color: #eee;
   margin-top: 0;
 }
 
@@ -302,6 +297,7 @@ hr{
 
 #svgAboutHeader{
   text-align: center;
+  padding-top: 100px;
 }
 
 

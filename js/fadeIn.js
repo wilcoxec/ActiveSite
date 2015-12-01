@@ -60,10 +60,10 @@ $(document).ready(function() {
        
   }
 
-  if ($(window).scrollTop() > $("#fadeInhr").offset().top - 600) {
-      $("#fadeInhr").animate({"opacity" : "1"}, 1000);
+  // if ($(window).scrollTop() > $("#fadeInhr").offset().top - 600) {
+  //     $("#fadeInhr").animate({"opacity" : "1"}, 1000);
        
-  }
+  // }
 
   if ($(window).scrollTop() > $("#fadeInAbout").offset().top - 400) {
       $("#fadeInAbout").animate({"opacity" : "1"}, 1000);
