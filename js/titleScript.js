@@ -52,7 +52,7 @@ $(document).ready(function() {
 
 
   if ($(window).scrollTop() > $("#aboutFrame").offset().top - 400 ) {
-      $(".a").css({"animation" : "dash 6s linear forwards","-webkit-animation" : "dash 6s linear forwards" });
+      $(".a").css({"animation" : "dash 4s linear forwards","-webkit-animation" : "dash 4s linear forwards" });
       
       $(".aFill").css({"animation" : "filling 2s linear forwards","-webkit-animation" : "filling 2s linear forwards" });
 
